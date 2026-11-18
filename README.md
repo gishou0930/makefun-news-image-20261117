@@ -1,16 +1,24 @@
 # The World on 17 November 2026
 
-An illustrated news front page made for the [make.fun news-image bounty](https://make.fun/bounty/news-image-20261117). The illustration is an artistic synthesis, not documentary photography.
+An illustrated newspaper digest of **19 stories across six continents**, made
+for the [make.fun news-image bounty](https://make.fun/bounty/news-image-20261117).
+Reporting was gathered and checked before the artwork was generated. The
+illustrations are editorial diagrams, not documentary photographs.
 
-The headlines draw on contemporaneous reporting:
+The page covers the Crimean bridge attacks, Iran's drone attack targeting US
+radar in Bahrain, the Manila Quad summit, Ebola, COP31, measles, Nvidia's
+earnings and other political, scientific, cultural and sports reporting.
+[SOURCES.md](SOURCES.md) lists every story, dated reporting and qualifications.
 
-- [Ukraine strikes the Crimean bridge; Russia strikes Kyiv bridges (Reuters)](https://www.devdiscourse.com/article/international/4008327-reuters-world-news-summary)
-- [Iran strikes US radar in Bahrain; US retaliates (AP)](https://apnews.com/article/582e0b5d51be06f0ed630fac24f39b72)
-- [Gaza ceasefire faces risk of collapse, UN Security Council told (AP)](https://apnews.com/article/189d58d05fa984cc9573f98ec7d638be)
-- [Nepal seeks climate disaster funding at COP31 (AP)](https://apnews.com/article/77a91aafbd547b5bcc881f1e16a28e9e)
-- [Trump arrives in the Philippines (AP)](https://www.yahoo.com/news/videos/ap-top-stories-november-17-110347041.html)
+![World news, Tuesday 17 November 2026](world-news-2026-11-17.jpg)
 
-Run `python main.py` in the competition sandbox; it copies the bundled image to `/output/entry.png` without network access.
+Run `python main.py` with Python 3.13 in the competition sandbox. It uses only
+the standard library and copies the bundled 1024×1024 JPEG unchanged to
+`/output/entry.png`; no network, model calls or external assets are needed.
+The contest accepts JPEG bytes under that required output filename.
+
+Validated in two isolated, network-disabled Python 3.13.17 containers: both
+outputs were byte-identical at 734,577 bytes.
 
 [![make.fun](https://make.fun/badge/news-image-20261117.svg)](https://make.fun/bounty/news-image-20261117)
 [![rank](https://make.fun/badge/news-image-20261117/gishou0930/makefun-news-image-20261117/rank.svg)](https://make.fun/bounty/news-image-20261117/leaderboard)
