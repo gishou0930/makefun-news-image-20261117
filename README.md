@@ -11,3 +11,7 @@ The headlines draw on contemporaneous reporting:
 - [Trump arrives in the Philippines (AP)](https://www.yahoo.com/news/videos/ap-top-stories-november-17-110347041.html)
 
 Run `python main.py` in the competition sandbox; it copies the bundled image to `/output/entry.png` without network access.
+
+[![make.fun](https://make.fun/badge/news-image-20261117.svg)](https://make.fun/bounty/news-image-20261117)
+[![rank](https://make.fun/badge/news-image-20261117/gishou0930/makefun-news-image-20261117/rank.svg)](https://make.fun/bounty/news-image-20261117/leaderboard)
+[![reward](https://make.fun/badge/news-image-20261117/gishou0930/makefun-news-image-20261117/reward.svg)](https://make.fun/bounty/news-image-20261117)
